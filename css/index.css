@@ -1,0 +1,79 @@
+body{
+    background-image: url(car1.webp);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 20;
+    margin-top: 40;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 23px;
+    transition: 0.5s;
+ 
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a:hover{
+    color: rgb(63, 1, 63);
+    font-size: 25px;
+}
+
+#h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#p1{
+    text-align: center;
+    margin-top: 230px;
+    color: white;
+    font-size: 40px;
+}
+
+#button1{
+    margin-left: 600px;
+    background-color:rgb(159, 101, 173) ;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    
+}
+
+#button1:hover{
+    background-color: rgb(74, 37, 207);
+}
+
+#button1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#button1 a:visited{
+    text-decoration: none;
+    color: white;
+}

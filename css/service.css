@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(59, 59, 59);
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 20;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 23px;
+    transition: 0.5s;
+ 
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a:hover{
+    color: rgb(163, 9, 163);
+    font-size: 25px;
+}
+#h1{
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#a1{
+    color: rgb(163, 9, 163);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 23px;
+    transition: 0.5s;
+}
+
+#a1:hover{
+    color: rgb(163, 9, 163);
+    font-size: 25px;
+}
+
+.div1{
+    border: 0.5px solid gray;
+    width: 300px;
+    height: 400px;
+}
+
+.p1{
+    font-size: 30px;
+    padding: 10px;
+    display: block;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.p2{
+    font-size: 18px;
+    display: block;
+    padding: 35px;
+    text-align: center;
+}
+
+#div2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-top: 140px;
+}
+
+.div1:hover{
+    background-color: rgb(8, 74, 197);
+    transition: 0.5s;
+    border: 0.5px solid gray;
+}
