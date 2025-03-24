@@ -30,6 +30,7 @@ li a{
 
 ul li{
     display: inline-block;
+    
 }
 
 ul li a:hover{
@@ -73,8 +74,19 @@ img{
     flex-wrap: wrap;
     align-content: space-between;
     margin-top: 100px;
+    transform: scale(0.8);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
+
+@keyframes slideFadeIn{
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 .p1{
     font-size: 20px;
     text-align: center;
@@ -91,4 +103,26 @@ img{
 
 .p3{
     word-spacing: 4px;
+}
+@media screen and (max-width: 850px) {
+    nav{
+        display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-around;
+                align-items: center;
+    }
+    nav>ul{
+        margin-top: -28px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+                align-content: stretch;
+                justify-content: space-around;
+                align-items: center;
+    }
+    nav>ul>li{
+        width: 100%;
+    }
 }

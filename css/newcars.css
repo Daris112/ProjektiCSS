@@ -67,6 +67,10 @@ img{
     left: 800px;
     font-variant: small-caps;
     font-size: 40px;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
 #p2{
@@ -74,6 +78,10 @@ img{
     top: 300px;
     left: 800px;
     font-size: 20px;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
 #p3{
@@ -81,6 +89,10 @@ img{
     top: 390px;
     left: 800px;
     font-size: 20px;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
 #button1{
@@ -95,6 +107,10 @@ img{
     position: absolute;
     left: 800px;
     top: 500px;
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
 #button1:hover{
@@ -109,4 +125,42 @@ img{
 #button1 a:visited{
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 850px) {
+    nav{
+        display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                align-content: center;
+                justify-content: space-around;
+                align-items: center;
+    }
+    nav>ul{
+        margin-top: -28px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+                align-content: stretch;
+                justify-content: space-around;
+                align-items: center;
+    }
+    nav>ul>li{
+        width: 100%;
+    }
+}
+
+.div1{
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+    animation-delay: 0.1s;
+}
+
+
+@keyframes slideFadeIn{
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
