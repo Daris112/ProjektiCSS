@@ -131,13 +131,14 @@ ul li a:hover{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    top: 200px;
+    top: 70px;
     }
     table {
     width: 100%;
     }
     td {
     padding: 10px;
+    font-size: 20px;
     }
     select, button {
     width: 100%;
@@ -150,6 +151,7 @@ ul li a:hover{
     color: white;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
     }
     button:hover {
     background-color: rgb(74, 37, 207);
