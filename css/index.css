@@ -116,3 +116,33 @@ ul li a:hover{
         opacity: 1;
     }
 }
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 200px;
+    }
+    table {
+    width: 100%;
+    }
+    td {
+    padding: 10px;
+    }
+    select, button {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    button {
+    background-color: rgb(159, 101, 173);
+    color: white;
+    border: none;
+    cursor: pointer;
+    }
+    button:hover {
+    background-color: rgb(74, 37, 207);
+    }
