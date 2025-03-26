@@ -97,7 +97,7 @@ ul li a:hover{
 }
 
 .div1:hover{
-    background-color: rgb(69, 119, 211);
+    background-color: rgb(100, 155, 255);
     transition: 0.5s;
     border: 0.5px solid gray;
 }
