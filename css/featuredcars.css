@@ -65,6 +65,7 @@ img{
     border: 0.5px solid grey;
     padding-bottom: 80px;
     padding-top: 80px;
+    border-radius: 14px;
 }
 
 .div2{
@@ -126,3 +127,16 @@ img{
         width: 100%;
     }
 }
+
+.div1{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 9px 14px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.div1:hover{
+    transform: scale(1.05);
+}
+
