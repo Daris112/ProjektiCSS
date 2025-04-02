@@ -57,7 +57,7 @@ ul li a:hover{
     font-size: 25px;
 }
 
-.new-car-container {
+.div1{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -71,27 +71,27 @@ ul li a:hover{
 }
 
 
-.new-car-image {
+.div2 {
     width: 50%;
     text-align: center;
 }
 
-.new-car-image img {
+.div2 img {
     width: 90%;
     border-radius: 12px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.new-car-image img:hover {
+.div2 img:hover {
     transform: scale(1.08);
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-.new-car-details {
+.div3{
     width: 45%;
 }
 
-.new-car-details h2 {
+.div3 h2 {
     font-size: 34px;
     color: #222;
     text-transform: uppercase;
@@ -99,7 +99,7 @@ ul li a:hover{
     letter-spacing: 1px;
 }
 
-.new-car-details p {
+.div3 p {
     font-size: 18px;
     color: #444;
     line-height: 1.8;
@@ -127,17 +127,17 @@ ul li a:hover{
 }
 
 @media (max-width: 768px) {
-    .new-car-container {
+    .div1 {
         flex-direction: column;
         text-align: center;
         padding: 30px;
     }
 
-    .new-car-image, .new-car-details {
+    .div2, .div3 {
         width: 100%;
     }
 
-    .new-car-image img {
+    .div2 img {
         width: 100%;
     }
 }
