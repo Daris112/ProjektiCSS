@@ -166,8 +166,5 @@ button:hover{
     nav>ul>li{
         width: 100%;
     }
-    div{
-        display: flex;
-        flex-direction: column;
-    }
+   
 }
